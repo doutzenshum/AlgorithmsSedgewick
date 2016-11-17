@@ -19,7 +19,7 @@ public class Ex_1_1_36
             shuffle.shuffle(a);
             
             for (int i = 0; i < m; i++)
-                s[i][a[i]]++;
+                s[a[i]][i]++;
         }
         
         for (int i = 0; i < m; i++)
